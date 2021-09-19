@@ -1,9 +1,33 @@
+body{
+    text-align:center;
+    font-size: larger;
+    font-weight: bold;
+}
 .positive{
-    background-color: green;
+    color: green;
 }
 .negative {
-    background-color: red;
+    color: red;
 }
 .neutral{
-    background-color: gray;
+    color: gray;
+}
+textarea{
+    font-size: 15px;
+}
+#result{
+    font-size: 30px;
+}
+#catImg img{  
+        max-width: 30%;  
+        height: 30%; 
+}
+#result img{
+    height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  
+    
 }
