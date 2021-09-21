@@ -4,21 +4,24 @@ body{
     font-weight: bold;
 }
 .positive{
-    color: green;
+    background-color: green;
 }
 .negative {
-    color: red;
+    background-color: red;
 }
 .neutral{
-    color: gray;
+    background-color: gray;
 }
 textarea{
     font-size: 15px;
 }
 #result{
     font-size: 30px;
+    border-style: solid;
+    margin-left: 39%;
+    margin-right: 39%;
 }
-#catImg img{  
+#img img{  
         max-width: 30%;  
         height: 30%; 
 }
